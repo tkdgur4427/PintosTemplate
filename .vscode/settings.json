@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "process.h": "c",
+        "syscall-nr.h": "c",
+        "interrupt.h": "c",
+        "syscall.h": "c",
+        "vm.h": "c",
+        "typeinfo": "c",
+        "cstdio": "c",
+        "tests.h": "c",
+        "cstdlib": "c",
+        "memory": "c",
+        "functional": "c",
+        "*.inc": "c",
+        "string_view": "c",
+        "memory_resource": "c",
+        "fsutil.h": "c",
+        "malloc.h": "c",
+        "filesys_impl.h": "c",
+        "fstream": "c"
+    }
+}

@@ -1,0 +1,17 @@
+services:
+  dev:
+    build:
+      # root directory for Dockerfile 
+      context: .            
+      dockerfile: Dockerfile
+    container_name: pintos-glibc
+    image: pintos-glibc:latest
+    volumes:
+      # same as '-v' option in docker
+      - .:/pintos
+    working_dir: /pintos
+    hostname: pintos
+    # same as '-it'
+    tty: true
+    # the container starts with bash
+    entrypoint: bash
