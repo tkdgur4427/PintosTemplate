@@ -8,7 +8,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <stropts.h>
+// [tkdgur4427] - in ubuntu 20.04, it is deprecated
+//#include <stropts.h>
 #include <sys/ioctl.h>
 #include <sys/stat.h>
 #include <sys/time.h>
